@@ -5,6 +5,6 @@ the PlayON Network in your favourite JS Framework.
 
 ## Frameworks
 
-[Angular](./angular/README.md)
-[Ember](./ember/README.md)
-[Vanilla JS](./vanilla-js/README.md)
+- [Angular](./angular)
+- [Ember](./ember)
+- [Vanilla JS](./vanilla-js)
