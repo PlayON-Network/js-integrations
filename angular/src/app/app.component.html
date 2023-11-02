@@ -1,0 +1,29 @@
+<nav class="main__navigation">
+  <div class="main__logo">
+    <h1>GP</h1>
+  </div>
+
+  <a class="main__navigation__item" title="Blackjack" routerLinkActive="active" routerLink="/blackjack">
+    <i class="icon fa-solid fa-cards"></i>
+    <span class="label">Blackjack</span>
+  </a>
+  
+  <a class="main__navigation__item" title="Casino" routerLinkActive="active" routerLink="/casino">
+    <i class="icon fa-solid fa-dice"></i>
+    <span class="label">Casino</span>
+  </a>
+  
+  <a class="main__navigation__item" title="Poker" routerLinkActive="active" routerLink="/poker">
+    <i class="icon fa-solid fa-spade"></i>
+    <span class="label">Poker</span>
+  </a>
+  
+  <a class="main__navigation__item" title="Fantasy" routerLinkActive="active" routerLink="/fantasy">
+    <i class="icon fa-solid fa-ranking-star"></i>
+    <span class="label">Fantasy</span>
+  </a>
+</nav>
+
+<main class="main__content">
+  <router-outlet></router-outlet>
+</main>
