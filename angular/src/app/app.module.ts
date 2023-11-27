@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import {CUSTOM_ELEMENTS_SCHEMA, NgModule} from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -7,6 +7,7 @@ import { BlackjackComponent } from './blackjack/blackjack.component';
 import { PokerComponent } from './poker/poker.component';
 import { CasinoComponent } from './casino/casino.component';
 import { FantasyComponent } from './fantasy/fantasy.component';
+import { FantasyWithSkeletonComponent } from './fantasy-with-skeleton/fantasy-with-skeleton.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -16,6 +17,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     PokerComponent,
     CasinoComponent,
     FantasyComponent,
+    FantasyWithSkeletonComponent,
+  ],
+  schemas: [
+    CUSTOM_ELEMENTS_SCHEMA,
   ],
   imports: [
     BrowserModule,

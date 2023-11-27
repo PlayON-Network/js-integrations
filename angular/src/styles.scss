@@ -54,7 +54,7 @@ html, body {
       }
 
       &.active {
-        font-weight: bold;  
+        font-weight: bold;
         background-color: rgba(0,0,0,0.2);
       }
     }
@@ -71,7 +71,7 @@ html, body {
     align-items: center;
     justify-content: center;
     display: flex;
-  
+
     & > h1 {
       font-size: 24px;
       font-weight: bold;
@@ -87,13 +87,13 @@ html, body {
     &__game {
       flex: 1;
       display: flex;
-    
+
       & > p {
         margin: auto;
         font-size: 24px;
         font-weight: bold;
       }
     }
-    
+
   }
 }

@@ -21,6 +21,7 @@
     "@angular/router": "^16.2.0",
     "@playon-network/engine": "file:../../sdk/packages/engine",
     "@playon-network/fantasy": "file:../../sdk/packages/fantasy",
+    "@playon-network/skeleton-ui": "file:../../sdk/packages/skeleton-ui",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
