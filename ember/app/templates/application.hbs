@@ -1,0 +1,38 @@
+{{page-title "Games Portal"}}
+
+<div class="main">
+  <nav class="main__navigation">
+    <div class="main__logo">
+      <h1>GP</h1>
+    </div>
+
+    <LinkTo @route="blackjack" class="main__navigation__item" title="Blackjack">
+      <i class="icon fa-solid fa-cards"></i>
+      <span class="label">Blackjack</span>
+    </LinkTo>
+
+    <LinkTo @route="casino" class="main__navigation__item" title="Casino">
+      <i class="icon fa-solid fa-dice"></i>
+      <span class="label">Casino</span>
+    </LinkTo>
+
+    <LinkTo @route="poker" class="main__navigation__item" title="Poker">
+      <i class="icon fa-solid fa-spade"></i>
+      <span class="label">Poker</span>
+    </LinkTo>
+
+    <LinkTo @route="fantasy" class="main__navigation__item" title="Fantasy">
+      <i class="icon fa-solid fa-ranking-star"></i>
+      <span class="label">Fantasy</span>
+    </LinkTo>
+
+    <LinkTo @route="fantasy-with-skeleton" class="main__navigation__item" title="Fantasy with Skeleton">
+      <i class="icon fa-solid fa-medal"></i>
+      <span class="label">Fantasy with Skeleton</span>
+    </LinkTo>
+  </nav>
+
+  <main class="main__content">
+    {{outlet}}
+  </main>
+</div>
